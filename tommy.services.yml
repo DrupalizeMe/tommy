@@ -1,0 +1,5 @@
+services:
+  tommy_event_subscriber:
+    class: Drupal\tommy\EventSubscriber\TommySubscriber
+    tags:
+      - {name: event_subscriber}
